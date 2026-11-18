@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Form</title>
+</head>
+<body>
+
+    <h2>Registration Form</h2>
+
+    <form id="myForm">
+
+        Username:
+        <input type="text" id="username">
+        <p id="userError"></p>
+
+        Email:
+        <input type="text" id="email">
+        <p id="emailError"></p>
+
+        Password:
+        <input type="password" id="password">
+        <p id="passError"></p>
+
+        Confirm Password:
+        <input type="password" id="confirm">
+        <p id="confirmError"></p>
+
+        Age:
+        <input type="number" id="age">
+        <p id="ageError"></p>
+
+        <button type="submit">Register</button>
+
+    </form>
+
+    <h3 id="result"></h3>
+
+    <script>
+        document.getElementById("myForm").onsubmit = function(event) {
+
+            event.preventDefault();
+
+            let username = document.getElementById("username").value;
+            let email = document.getElementById("email").value;
+            let password = document.getElementById("password").value;
+            let confirm = document.getElementById("confirm").value;
+            let age = document.getElementById("age").value;
+
+            let valid = true;
+
+            document.getElementById("userError").innerHTML = "";
+            document.getElementById("emailError").innerHTML = "";
+            document.getElementById("passError").innerHTML = "";
+            document.getElementById("confirmError").innerHTML = "";
+            document.getElementById("ageError").innerHTML = "";
+            document.getElementById("result").innerHTML = "";
+
+            if (username == "") {
+                document.getElementById("userError").innerHTML = "Enter username";
+                valid = false;
+            }
+
+            if (!email.includes("@") || !email.includes(".")) {
+                document.getElementById("emailError").innerHTML = "Enter valid email";
+                valid = false;
+            }
+
+            if (password.length < 6) {
+                document.getElementById("passError").innerHTML = "Password must have 6 characters";
+                valid = false;
+            }
+
+            if (password != confirm) {
+                document.getElementById("confirmError").innerHTML = "Passwords do not match";
+                valid = false;
+            }
+
+            if (age < 18 || age == "") {
+                document.getElementById("ageError").innerHTML = "Age must be 18 or above";
+                valid = false;
+            }
+
+            if (valid) {
+                document.getElementById("result").innerHTML = "Registration Successful!";
+            }
+        };
+    </script>
+
+</body>
+</html>
