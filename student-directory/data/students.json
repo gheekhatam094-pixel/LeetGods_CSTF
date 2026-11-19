@@ -1,0 +1,104 @@
+[
+  {
+    "id": "1",
+    "name": "Aarav Sharma",
+    "rollNo": "C2K22101",
+    "department": "Computer Engineering",
+    "year": "Second Year",
+    "email": "aarav.sharma@example.com",
+    "phone": "9876500001",
+    "address": "Kothrud, Pune",
+    "cgpa": "8.7",
+    "skills": [
+      "Java",
+      "React",
+      "MySQL"
+    ],
+    "image": "/images/student1.svg"
+  },
+  {
+    "id": "2",
+    "name": "Priya Deshmukh",
+    "rollNo": "C2K22102",
+    "department": "Computer Engineering",
+    "year": "Second Year",
+    "email": "priya.deshmukh@example.com",
+    "phone": "9876500002",
+    "address": "Baner, Pune",
+    "cgpa": "9.1",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "SQL"
+    ],
+    "image": "/images/student2.svg"
+  },
+  {
+    "id": "3",
+    "name": "Rohan Patil",
+    "rollNo": "E2K22201",
+    "department": "Electronics & Telecommunication",
+    "year": "Third Year",
+    "email": "rohan.patil@example.com",
+    "phone": "9876500003",
+    "address": "Hadapsar, Pune",
+    "cgpa": "8.2",
+    "skills": [
+      "Embedded C",
+      "IoT",
+      "MATLAB"
+    ],
+    "image": "/images/student3.svg"
+  },
+  {
+    "id": "4",
+    "name": "Sneha Kulkarni",
+    "rollNo": "I2K22301",
+    "department": "Information Technology",
+    "year": "Third Year",
+    "email": "sneha.kulkarni@example.com",
+    "phone": "9876500004",
+    "address": "Aundh, Pune",
+    "cgpa": "8.9",
+    "skills": [
+      "JavaScript",
+      "Node.js",
+      "MongoDB"
+    ],
+    "image": "/images/student4.svg"
+  },
+  {
+    "id": "5",
+    "name": "Kunal Joshi",
+    "rollNo": "C2K22103",
+    "department": "Computer Engineering",
+    "year": "Final Year",
+    "email": "kunal.joshi@example.com",
+    "phone": "9876500005",
+    "address": "Wakad, Pune",
+    "cgpa": "7.8",
+    "skills": [
+      "C++",
+      "DSA",
+      "Docker"
+    ],
+    "image": "/images/student5.svg"
+  },
+  {
+    "id": "6",
+    "name": "Neha Gaikwad",
+    "rollNo": "I2K22302",
+    "department": "Information Technology",
+    "year": "Second Year",
+    "email": "neha.gaikwad@example.com",
+    "phone": "9876500006",
+    "address": "Pimpri, Pune",
+    "cgpa": "9.3",
+    "skills": [
+      "Flutter",
+      "Dart",
+      "Firebase"
+    ],
+    "image": "/images/student6.svg"
+  }
+]

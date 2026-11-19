@@ -1,0 +1,68 @@
+[
+  {
+    "id": "1",
+    "name": "Wireless Headphones",
+    "brand": "Boat",
+    "category": "Electronics",
+    "price": 1999,
+    "description": "Over-ear headphones with deep bass and 20 hours of battery life.",
+    "rating": "4.4",
+    "stock": 35,
+    "image": "🎧"
+  },
+  {
+    "id": "2",
+    "name": "Smart Watch",
+    "brand": "Noise",
+    "category": "Electronics",
+    "price": 2499,
+    "description": "Fitness smart watch with heart rate monitor and sleep tracking.",
+    "rating": "4.2",
+    "stock": 20,
+    "image": "⌚"
+  },
+  {
+    "id": "3",
+    "name": "Running Shoes",
+    "brand": "Puma",
+    "category": "Footwear",
+    "price": 3299,
+    "description": "Lightweight and comfortable shoes for daily running.",
+    "rating": "4.5",
+    "stock": 50,
+    "image": "👟"
+  },
+  {
+    "id": "4",
+    "name": "Backpack",
+    "brand": "Wildcraft",
+    "category": "Accessories",
+    "price": 1299,
+    "description": "Water resistant backpack with laptop compartment.",
+    "rating": "4.3",
+    "stock": 42,
+    "image": "🎒"
+  },
+  {
+    "id": "5",
+    "name": "Steel Water Bottle",
+    "brand": "Milton",
+    "category": "Home",
+    "price": 499,
+    "description": "Insulated bottle that keeps drinks hot or cold for 12 hours.",
+    "rating": "4.6",
+    "stock": 120,
+    "image": "🧴"
+  },
+  {
+    "id": "6",
+    "name": "Bluetooth Speaker",
+    "brand": "JBL",
+    "category": "Electronics",
+    "price": 2999,
+    "description": "Portable speaker with clear sound and waterproof design.",
+    "rating": "4.7",
+    "stock": 18,
+    "image": "🔊"
+  }
+]

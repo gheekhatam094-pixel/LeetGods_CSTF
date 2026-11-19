@@ -1,0 +1,42 @@
+[
+  {
+    "id": "1",
+    "title": "Getting Started with Next.js",
+    "author": "Aarav Sharma",
+    "date": "12 Oct 2026",
+    "description": "A quick introduction to pages, routing and components in Next.js.",
+    "content": "Next.js is a React framework that gives you routing, rendering and project structure out of the box. Every folder inside the app directory becomes a route, and a page.js file inside it becomes the page shown to the user. Components are plain JavaScript functions that return JSX, and data can be passed to them using props. Start with a small project, create a couple of pages and you will see how quickly it comes together."
+  },
+  {
+    "id": "2",
+    "title": "Why Every Student Should Learn Git",
+    "author": "Priya Deshmukh",
+    "date": "15 Oct 2026",
+    "description": "Version control saves time, prevents mistakes and makes teamwork easy.",
+    "content": "Git keeps a history of every change you make to your code. If something breaks you can go back to a working version in seconds. It also lets a team work on the same project without overwriting each other's files. Learn the basic commands first: init, add, commit, push and pull. Those five are enough for almost every college project."
+  },
+  {
+    "id": "3",
+    "title": "Tips for Preparing for Practical Exams",
+    "author": "Rohan Patil",
+    "date": "20 Oct 2026",
+    "description": "Simple habits that help you stay calm and finish your practical on time.",
+    "content": "Practise the same program at least three times without looking at the solution. Keep your code simple so that you can explain every line in the viva. Know how to set up the project from scratch, because that is where most time is lost. On exam day read the question fully before typing anything, and test your output before calling the examiner."
+  },
+  {
+    "id": "4",
+    "title": "Understanding Props in React",
+    "author": "Sneha Kulkarni",
+    "date": "24 Oct 2026",
+    "description": "Props let one component send data to another. Here is how they work.",
+    "content": "Props are the inputs of a component. A parent component passes values to a child, and the child reads them as a single object or by destructuring. Props are read only, so the child should never change them. Using props lets you write one component and reuse it many times with different data, which is why they are the base of every React application."
+  },
+  {
+    "id": "5",
+    "title": "A Beginner's Guide to Tailwind CSS",
+    "author": "Kunal Joshi",
+    "date": "28 Oct 2026",
+    "description": "Style your pages quickly by using small utility classes directly in JSX.",
+    "content": "Tailwind CSS provides small classes such as p-4, text-center and bg-white that you combine to style an element. You do not have to write a separate CSS file for every component. Spacing, colours and layout all follow a consistent scale, so your pages look tidy without much effort. Start with a handful of classes and look up new ones only when you need them."
+  }
+]
